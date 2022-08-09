@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+.card-images{
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5em 0 2em;
+  padding: 3em;
+}
+
+.button-action{
+  background-color: pink;
+  border-color: pink;
+  font-size: 1.2em;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
